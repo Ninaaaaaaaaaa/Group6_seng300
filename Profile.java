@@ -146,6 +146,14 @@ public class Profile {
 		panel_2.add(choice);
 		
 		Button button = new Button("Create");
+		button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				Submit newWin = new Submit();
+				newWin.NewScreen();
+				
+			}
+		});
 		button.setBounds(341, 42, 70, 22);
 		panel_2.add(button);
 		
