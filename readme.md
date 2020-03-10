@@ -4,6 +4,7 @@ Need to use Mysql and MysqlWorkbench in order to test the Login Window.
 
 	-change the username and password in database.peoperties to your Mysql localhost's username and password
 Need to add mysql-connector-java-8.0.18.jar into Java Build Path(if you're using Eclipse).
+	
 	-right click project.
 	-click 'Properties'.
 	-find 'Java Build Path'.
@@ -16,6 +17,7 @@ Need to add mysql-connector-java-8.0.18.jar into Java Build Path(if you're using
 	
 
 Achieved functionalities:
+	
 	1.Login Window GUI.
 	2.Profile Window GUI.
 	3.Submit Window GUI.
@@ -23,6 +25,7 @@ Achieved functionalities:
 	4.Validate user input username and password.
 
 Unachieved funtionalities:
+	
 	1.Not be able to switch between Login/Profile/Submit
 
 
